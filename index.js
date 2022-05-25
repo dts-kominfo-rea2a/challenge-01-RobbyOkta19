@@ -58,10 +58,10 @@ const firstUser = {
   gender: gender,
   age: age,
   email: email,
-  favoriteColor: favoriteColor,
+  favoriteColor: [...favoriteColor],
   isHavePet: isHavePet,
   education: education,
-  favoriteRestaurant: favoriteRestaurant,
+  favoriteRestaurant: [...favoriteRestaurant],
 };
 // END of user 1
 
@@ -118,15 +118,16 @@ favoriteRestaurant.add("Geprek");
 favoriteRestaurant.add("Pancake");
 favoriteRestaurant.add("Eggy");
 
+
 const secondUser = {
   name: name,
   gender: gender,
   age: age,
   email: email,
-  favoriteColor: favoriteColor,
+  favoriteColor:[...favoriteColor],
   isHavePet: isHavePet,
   education: education,
-  favoriteRestaurant: favoriteRestaurant,
+  favoriteRestaurant: [...favoriteRestaurant],
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
